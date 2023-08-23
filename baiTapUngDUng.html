@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ung Dung 1</title>
+</head>
+
+<body>
+
+   
+        <h2>Thông tin sách</h2>
+        <table>
+            <tr>
+                <td><label for="">Mã sách: </label></td>
+                <td> <input type="text" id="bookId"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Tên sách: </label>
+                </td>
+                <td><input type="text" id="bookName"></td>
+            </tr>
+            <tr>
+                <td><label for="">Giá: </label></td>
+                <td><input type="text" id="price"></td>
+            </tr>
+            <tr>
+                <td>Tác giả:</td>
+                <td><input type="text" id="author"></td>
+            </tr>
+
+        </table>
+        <div>
+            <button onclick="save()">Lưu</button>
+            <button onclick="setDataToLocal()">LocalStorage</button>
+            <button onclick="getDataFromLocal()">Display</button>
+        </div>
+
+
+
+
+
+    <script src="./Js/baiTapUngDung.js"></script>
+</body>
+
+</html>
